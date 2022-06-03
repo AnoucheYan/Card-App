@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid black;
+  padding: 5px;
+  height: fit-content;
+  width: 60%;
+  margin: 15px;
+}
+
+.close {
+  text-align: right;
+  padding: 0;
+}
+
+.randomNumber {
+  text-align: center;
+  padding: 50px 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.closeButton {
+  border: none;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.closeButton:hover {
+  background-color: lightgray;
+}
+
+.closeButton:active {
+  border: 1px solid black;
+}
